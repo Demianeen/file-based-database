@@ -25,7 +25,7 @@
       devShells = forEachSupportedSystem ({ pkgs }: {
         default = pkgs.mkShell {
           # Pinned packages available in the environment
-          packages = with pkgs; [ git nixpkgs-fmt gcc ];
+          packages = with pkgs; [ git nixpkgs-fmt gcc bear ];
         };
       });
     };

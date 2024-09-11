@@ -1,0 +1,41 @@
+[
+  {
+    "arguments": [
+      "/nix/store/r0m55kpw1x5vlzdqwgy86zk1rg7xfw38-gcc-wrapper-13.2.0/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-o",
+      "obj/file.o",
+      "src/file.c"
+    ],
+    "directory": "/Users/demian/projects/low-level-learning",
+    "file": "/Users/demian/projects/low-level-learning/src/file.c",
+    "output": "/Users/demian/projects/low-level-learning/obj/file.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/r0m55kpw1x5vlzdqwgy86zk1rg7xfw38-gcc-wrapper-13.2.0/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-o",
+      "obj/main.o",
+      "src/main.c"
+    ],
+    "directory": "/Users/demian/projects/low-level-learning",
+    "file": "/Users/demian/projects/low-level-learning/src/main.c",
+    "output": "/Users/demian/projects/low-level-learning/obj/main.o"
+  },
+  {
+    "arguments": [
+      "/nix/store/r0m55kpw1x5vlzdqwgy86zk1rg7xfw38-gcc-wrapper-13.2.0/bin/gcc",
+      "-c",
+      "-Iinclude",
+      "-o",
+      "obj/parse.o",
+      "src/parse.c"
+    ],
+    "directory": "/Users/demian/projects/low-level-learning",
+    "file": "/Users/demian/projects/low-level-learning/src/parse.c",
+    "output": "/Users/demian/projects/low-level-learning/obj/parse.o"
+  }
+]
